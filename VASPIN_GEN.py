@@ -65,11 +65,11 @@ print("+"+"-"*90+"+")
 
 # select the pseudopotentials(PP)
 inputstr = input("Pseudopotentials options:\n\n %s %s %s %s %s %s" % ("1: PAW_LDA;\n",
-											    "2: PAW_PW91;\n",
-                                                "3: PAW_PBE;\n",
-                                                "4: US_LDA;\n",
-                                                "5: US_GGA.\n",
-												"\n--->>Enter your option:"))
+								      "2: PAW_PW91;\n",
+								      "3: PAW_PBE;\n",
+                                                                      "4: US_LDA;\n",
+								      "5: US_GGA.\n",
+								      "\n--->>Enter your option:"))
 PP_option = inputstr.strip()
 PP_dict = {"1":"PAW","2":"PAW_GGA","3":"PAW_PBE","4":"UU","5":"UU_GGA"}
 # set the default PP option
