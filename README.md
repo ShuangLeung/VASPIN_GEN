@@ -13,7 +13,7 @@ following structure:
                           |
        ---------------------------------------
       |         |         |         |         |
-     PAW     PAW_GGA   PAW_PBE     UU       UU_GGA
+     PAW     PAW_GGA   PAW_PBE     UU      UU_GGA
 
 2. Specify the location of VASP_pseudopotentials library of your machine.
    You need to find the following line: 
@@ -31,8 +31,7 @@ following structure:
    based on your machine environment.
 
 -----------------------------------------------------------------------------
-Author: ShuangLeung 
-Email: sleung1924@gmail.com                         
+Author: ShuangLeung                                                                                                                      Email: sleung1924@gmail.com                         
 Date of last version: 2020/03/30
 
 -----------------------------------------------------------------------------
