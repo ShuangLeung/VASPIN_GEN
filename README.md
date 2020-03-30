@@ -31,6 +31,8 @@ script to run VASP. You can modify the part of 'VASP_Run_scprit generator'
 based on your machine environment.
 
 -----------------------------------------------------------------------------
-Author: ShuangLeung (sleung1924@gmail.com)                         
+Author: ShuangLeung 
+Email: sleung1924@gmail.com                         
 Date of last version: 2020/03/30
+
 -----------------------------------------------------------------------------
