@@ -30,6 +30,7 @@ it's in the working directory!
 script to run VASP. You can modify the part of 'VASP_Run_scprit generator' 
 based on your machine environment.
 
+
 -----------------------------------------------------------------------------
 Author: ShuangLeung 
 Email: sleung1924@gmail.com                         
