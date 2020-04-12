@@ -7,8 +7,8 @@ vasp_job.sh script.
 
 Important notes:
 
-(1) Before running this script, check your VASP_Pseudopotentials library has
-following structure:
+(1) Before running this script, check if your VASP_Pseudopotentials library
+has following structure:
 
         VASP_Pseudopotentials (root directory)
                           |
