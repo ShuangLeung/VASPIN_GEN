@@ -5,7 +5,7 @@ A script to generate VASP input files including INCAR, KPOINTS, POTCAR and vasp_
 
 Important notes:
 
-(1) Before running this script, check your VASP_Pseudopotentials library has
+(1) Before running this script, check if your VASP_Pseudopotentials library has
     following structure:
 
         VASP_Pseudopotentials (root directory)
