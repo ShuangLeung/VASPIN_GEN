@@ -14,7 +14,7 @@ has following structure:
                           |
        ---------------------------------------
       |         |         |         |         |
-     PAW     PAW_GGA   PAW_PBE     UU       UU_GGA
+     PAW     PAW_GGA   PAW_PBE     US       US_GGA
 
 (2) Specify the location of VASP_pseudopotentials library of your machine.
 You need to find the following line: 
@@ -71,7 +71,7 @@ inputstr = input("Pseudopotentials options:\n\n %s %s %s %s %s %s" % ("1: PAW_LD
 								      "5: US_GGA.\n",
 								      "\n--->>Enter your option:"))
 PP_option = inputstr.strip()
-PP_dict = {"1":"PAW","2":"PAW_GGA","3":"PAW_PBE","4":"UU","5":"UU_GGA"}
+PP_dict = {"1":"PAW","2":"PAW_GGA","3":"PAW_PBE","4":"US","5":"US_GGA"}
 # set the default PP option
 if PP_option not in PP_dict.keys():
     print("\n*** WARNING: The input has syntax errors. Select the PAW_PPE PP automatically. ***\n")
@@ -79,7 +79,7 @@ if PP_option not in PP_dict.keys():
 
 print("+"+"-"*90+"+")
 
-# get the path of PP ("PAW_LDA/PAW_GGA/PAW_PBE/UU/UU_GGA") directory 
+# get the path of PP ("PAW_LDA/PAW_GGA/PAW_PBE/US/US_GGA") directory 
 # and the names of its sub-folders
 PP_dirs_path = os.path.join(PPS_dirs_path,'%s'% PP_dict[PP_option])
 PP_dirs = os.listdir(PP_dirs_path)
