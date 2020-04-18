@@ -12,7 +12,7 @@ Important notes:
                           |
        ---------------------------------------
       |         |         |         |         |
-     PAW     PAW_GGA   PAW_PBE     UU       UU_GGA
+     PAW     PAW_GGA   PAW_PBE     US       US_GGA
 
 (2) Specify the location of VASP_pseudopotentials library of your machine.
     You need to find the following line:  
