@@ -74,7 +74,7 @@ PP_option = inputstr.strip()
 PP_dict = {"1":"PAW","2":"PAW_GGA","3":"PAW_PBE","4":"US","5":"US_GGA"}
 # set the default PP option
 if PP_option not in PP_dict.keys():
-    print("\n*** WARNING: The input has syntax errors. Select the PAW_PPE PP automatically. ***\n")
+    print("\n*** WARNING: The input has syntax errors. Select the PAW_PBE PP automatically. ***\n")
     PP_option = "3"
 
 print("+"+"-"*90+"+")
